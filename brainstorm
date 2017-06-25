@@ -1,0 +1,36 @@
+#Data
+
+//this.state = {
+    username: '',
+    password: '',
+    textarea(tweet box): '',
+    tweets (list of tweets): [],
+    favorites: 0
+    display: 'hide'
+}
+
+
+
+#View
+- User name and password input field
+- Login button next to previous input fields
+- Once logged in display Tweet Button
+- List of tweets
+- Star (showcasing number of favorites)
+- Once tweet button is clicked show textarea
+- Once user starts typing in textarea display send button.
+
+
+
+#Behavior
+Onchange Events:
+- Username and Password 
+- Tweet: textarea (onChange: display send button)
+Submit / Click Events:
+- Once login button is clicked display tweets & 
+tweet button.
+- Once tweet Button is clicked display textarea.
+- Once send button is clicked push tweet to the user
+tweets list. 
+- Once star is clicked highlight star and 
+increment counter next to the star.

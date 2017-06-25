@@ -1,0 +1,109 @@
+div.sign-in input:hover, div.sign-in button:hover {
+  box-shadow: 4px 5px 3px rgba(0, 100, 250, 0.6); }
+
+html {
+  background: #0096fa; }
+
+div#body {
+  background: white;
+  width: 960px;
+  height: 1000px;
+  margin: 50px auto;
+  padding: 30px; }
+
+div#heading {
+  padding-top: 50px;
+  border-bottom: 3px solid  black; }
+  div#heading h1 {
+    font-family: Helvetica, sans-serif;
+    padding: 15px; }
+
+div.sign-in {
+  float: right;
+  position: relative;
+  bottom: 55px;
+  margin-right: 20px; }
+  div.sign-in input {
+    padding: 5px;
+    font-family: Helvetica, sans-serif;
+    margin: 0 8px;
+    box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 4px; }
+    div.sign-in input:focus {
+      outline: none;
+      box-shadow: 1px 9px 9px -2px rgba(0, 100, 250, 0.4); }
+  div.sign-in button {
+    padding: 5px;
+    box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.6);
+    width: 100px;
+    background: #0096fa;
+    border-radius: 4px; }
+    div.sign-in button:focus {
+      outline: none; }
+
+button#tweet {
+  position: relative;
+  left: 82%;
+  margin-top: 25px;
+  padding: 7px;
+  width: 105px;
+  background: white;
+  font-size: 14px;
+  border-radius: 4px;
+  box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.6); }
+  button#tweet:hover {
+    background: #0096fa; }
+  button#tweet:focus {
+    outline: none; }
+
+div#list {
+  margin: 90px auto;
+  width: 900px;
+  text-align: center; }
+  div#list ul {
+    list-style: none;
+    padding: 0 !important;
+    font-family: Helvetica, sans-serif; }
+    div#list ul li {
+      padding-bottom: 15px;
+      width: 500px;
+      margin: 0 auto; }
+  div#list div {
+    border-bottom: 2px solid #0096fa; }
+  div#list i.fa-user {
+    font-size: 4em;
+    position: relative;
+    right: 30%;
+    top: 15px; }
+  div#list i.fa-star {
+    font-size: 1.5em;
+    position: relative;
+    right: 16%; }
+    div#list i.fa-star:hover {
+      color: #0096fa; }
+  div#list span {
+    position: relative;
+    right: 15%;
+    color: #0096fa; }
+  div#list #tweetBox {
+    position: relative;
+    top: 45px;
+    left: 16%;
+    width: 360px;
+    height: 100px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding: 10px; }
+    div#list #tweetBox:hover {
+      border: 2px solid black; }
+    div#list #tweetBox:focus {
+      outline: none;
+      border: 2px solid black; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: initial; }
+
+/*# sourceMappingURL=twitter.css.map */
