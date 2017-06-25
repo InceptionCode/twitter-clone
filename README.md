@@ -1,4 +1,4 @@
-#Twitter Clone App
+# Twitter Clone App
 
 This was one of my first major projects created 6 months ago. 
 I recently became reunited with it's code base. 
@@ -16,7 +16,7 @@ Leave any issue reports here.
 Below is a list of the thought process I had while I was developing this app. 
 Review my notes carefully to help you better understand the idea behind the app. HAPPY CODING!!
 
-##Data
+## Data
 
 //this.state = {
     username: '',
@@ -29,7 +29,7 @@ Review my notes carefully to help you better understand the idea behind the app.
 
 
 
-##View
+## View
 - User name and password input field
 - Login button next to previous input fields
 - Once logged in display Tweet Button
@@ -40,7 +40,7 @@ Review my notes carefully to help you better understand the idea behind the app.
 
 
 
-##Behavior
+## Behavior
 Onchange Events:
 - Username and Password
 - Tweet: textarea (onChange: display send button)
